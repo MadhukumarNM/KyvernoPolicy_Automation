@@ -4,7 +4,7 @@ metadata:
   name: check-image
 spec:
   validationFailureAction: audit
-  background: false
+  background: true
   webhookTimeoutSeconds: 30
   failurePolicy: Fail  
   rules:
